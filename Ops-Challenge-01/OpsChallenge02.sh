@@ -11,7 +11,7 @@
 # Appends the current date and time to the filename
 
 #Define variables
-timestamp=$(date +%m-%d-%Y_%H-%M-%S)
+timestamp=$(date +%m-%d-%Y_%H:%M:%S)
 
 #main
 
