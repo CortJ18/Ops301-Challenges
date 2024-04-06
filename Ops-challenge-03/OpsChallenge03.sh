@@ -11,7 +11,7 @@
 #Prompts user for input directory path.
 read -p "Enter directory path:" directory_path
 
-# Loop to check if the directory exists
+# If statement to check if the directory exists
 if [ ! -d "$directory_path" ]; then
     echo "Directory not found!"
     exit 1
